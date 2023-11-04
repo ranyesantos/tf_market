@@ -80,9 +80,31 @@ $data = mysqli_fetch_array($result);
 </div>
 
 
-<div class="container-sm d-flex flex-column mt-5 justify-content-center align-items-center mt-0">
+<div class="container-sm d-flex flex-column mt-5 justify-content-center align-items-center mt-0 mb-5">
     
-    <div class="text-center" >
+    <div class="text-center">
+        <h2 class="mb-0">VOCÊ E SEU ESTILO SE ENCONTRAM AQUI</h2>
+    </div>
+    <div class="row row-cols-2 col-12">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt-0">
+            <div class="card border-0">
+                <img src="https://picsum.photos/630/340?random=13" alt="" class="d-block w-100 rounded-3">
+                <div>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 col-12 mt-0">
+            <div class="card border-0">
+                <img src="https://picsum.photos/630/340?random=18" alt="" class="d-block w-100 rounded-3">
+                <div>
+                    <a href="#" class="stretched-link"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mt-5 text-center">
         <h2 class="mb-0" >LANÇAMENTOS</h2>
     </div>
     <div class="row row-cols-4 mt-0 col-12">
